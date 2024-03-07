@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  width: 1440px;
+  height: 111px;
+  padding: 35px 1194px 35px 114px;
+}
+
+.registration{
+  width: 512px;
+  height: 593px;
+  margin-top: 120px;
+}
+
+
+.registration{
+width:512px;
+height: 593px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+h1{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  font-family: "Inter";
+}
+
+.login-paragraph{
+font-size: 16px;
+line-height: 20px;
+font-weight: 400;
+color: #112211;
+font-family: "Inter";
+}
+
+.Email{
+  display: flex;
+  flex-direction: column;
+}
+
+.label-password{
+  display: flex;
+  flex-direction: column;
+}
+
+.main-div{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+  margin: 20px 114px 20px 114px;
+  gap: 90px
+}
+
+.main-div img{
+  width: 616px;
+  height: 816px;
+}
+
+.resiter-section{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+
+.password,
+.email{
+padding: 18px 324px 18px 16px;
+border-radius: 10px;
+border-style: solid;
+}
+
+.button{
+ border-style: none;
+padding: 15px 235px;
+ background-color:  #8DD3BB;
+ font-size: 14px;
+ font-weight: 600;
+}
+
+.dont-have-account{
+text-align: center;
+font-size: 14px;
+font-weight: 500;
+font-family: "Inter";
+}
+
+.dont-have-account a{
+  color: blue;
+}
+
